@@ -99,17 +99,20 @@ O projeto integra-se na iniciativa **Pangolins Cyber**, focada em segurança da 
 
 ---
 
-## 🎬 Vídeos de Demonstração
-
-> Se os vídeos não reproduzirem diretamente na página do GitHub, clique no ficheiro para o descarregar/visualizar.
-
+# 🎬 Vídeos de Demonstração
+ 
+> Pré-visualização em GIF (excerto). Clica no link por baixo de cada uma para ver o vídeo `.mp4` completo.
+ 
 **Teste de funcionamento 1 — Fluxo de diagnóstico e chat:**
-
-<video src="assets/Teste%201.mp4" controls width="100%"></video>
-
+ 
+<img src="assets/teste1.gif" alt="Pré-visualização do Teste 1 — fluxo de diagnóstico e chat" width="100%"/>
+▶️ [Ver vídeo completo (Teste 1.mp4)](https://github.com/Israzuba0023/Pangolins-Challenge-Alura-Agente/blob/main/assets/Teste%201.mp4)
+ 
 **Teste de funcionamento 2 — Scope Guard e Base RAG:**
-
-<video src="assets/Teste%202.mp4" controls width="100%"></video>
+ 
+<img src="assets/teste2.gif" alt="Pré-visualização do Teste 2 — Scope Guard e Base RAG" width="100%"/>
+▶️ [Ver vídeo completo (Teste 2.mp4)](https://github.com/Israzuba0023/Pangolins-Challenge-Alura-Agente/blob/main/assets/Teste%202.mp4)
+ 
 
 ---
 
