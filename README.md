@@ -1,6 +1,6 @@
 <div align="center">
-<img src="assets/ng%C3%BAnji%20logo%20para%20page.jpeg" alt="Logótipo Ngúnji" width="100%"/>
 
+<img src="assets/ng%C3%BAnji%20logo%20para%20page.jpeg" alt="Logótipo Ngúnji" width="100%"/>
 
 # 🛡️ Ngúnji — by Pangolins Cyber
 
@@ -10,8 +10,9 @@
 
 [![Desafio Alura Agente](https://img.shields.io/badge/Desafio-Alura%20Agente-FFD700?style=flat-square)](#-sobre-o-projeto)
 [![Licença MIT](https://img.shields.io/badge/Licença-MIT-blue?style=flat-square)](#-licença)
-[![Stack](https://img.shields.io/badge/Stack-React%20%7C%20Express%20%7C%20Gemini%20API-black?style=flat-square)](#-stack-tecnológico)
+[![Stack](https://img.shields.io/badge/Stack-React%20%7C%20Express%20%7C%20Gemini%20API-black?style=flat-square)](#-tecnologias-utilizadas)
 [![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange?style=flat-square)](#-roadmap)
+[![Demo ao Vivo](https://img.shields.io/badge/Demo%20ao%20Vivo-Netlify-00C7B7?style=flat-square&logo=netlify&logoColor=white)](https://pangolins-cyber.netlify.app/)
 
 </div>
 
@@ -23,7 +24,7 @@
 - [Funcionalidades](#-funcionalidades)
 - [Capturas de Ecrã](#-capturas-de-ecrã)
 - [Vídeos de Demonstração](#-vídeos-de-demonstração)
-- [Stack Tecnológico](#-stack-tecnológico)
+- [Tecnologias Utilizadas](#-tecnologias-utilizadas)
 - [Como Executar Localmente](#-como-executar-localmente)
 - [Deploy em Produção](#-deploy-em-produção)
 - [Estrutura do Projeto](#-estrutura-do-projeto)
@@ -51,6 +52,7 @@ O projeto integra-se na iniciativa **Pangolins Cyber**, focada em segurança da 
 - 🔒 **Scope Guard** — filtro que garante que o agente responde **exclusivamente** a questões de ciber-higiene, segurança da informação e proteção de dados, recusando de forma transparente qualquer pergunta fora do domínio;
 - 📚 **Base RAG Explorer** — explorador da base de conhecimento normativa (Lei n.º 22/11, Lei n.º 23/11, orientações da APD, manual de DPO/EPD, NIST CSF/CIS Controls), pesquisável por artigo ou termo;
 - 📊 **Diagnóstico & Score** — questionário de autoavaliação de 10 pilares de segurança (senhas, MFA, backups, phishing, etc.), com cálculo de *Cyber Hygiene Score* (0–100) e plano de ação priorizado;
+- 📄 **Relatório em PDF** — exportação do diagnóstico e plano de ação num relatório formal em PDF, com enquadramento na Lei n.º 22/11;
 - 🏢 **Perfil PME** — personalização das respostas com base no perfil da empresa (dimensão, sector, província, plataforma de nuvem utilizada);
 - 🌐 **Busca Web** — opção de fundamentar respostas com pesquisa em tempo real, quando ativada.
 
@@ -99,33 +101,74 @@ O projeto integra-se na iniciativa **Pangolins Cyber**, focada em segurança da 
 
 ---
 
-# 🎬 Vídeos de Demonstração
- 
+## 🎬 Vídeos de Demonstração
+
 > Pré-visualização em GIF (excerto). Clica no link por baixo de cada uma para ver o vídeo `.mp4` completo.
- 
+
 **Teste de funcionamento 1 — Fluxo de diagnóstico e chat:**
- 
+
 <img src="assets/teste1.gif" alt="Pré-visualização do Teste 1 — fluxo de diagnóstico e chat" width="100%"/>
+
 ▶️ [Ver vídeo completo (Teste 1.mp4)](https://github.com/Israzuba0023/Pangolins-Challenge-Alura-Agente/blob/main/assets/Teste%201.mp4)
- 
+
 **Teste de funcionamento 2 — Scope Guard e Base RAG:**
- 
+
 <img src="assets/teste2.gif" alt="Pré-visualização do Teste 2 — Scope Guard e Base RAG" width="100%"/>
+
 ▶️ [Ver vídeo completo (Teste 2.mp4)](https://github.com/Israzuba0023/Pangolins-Challenge-Alura-Agente/blob/main/assets/Teste%202.mp4)
- 
 
 ---
 
-## 🧰 Stack Tecnológico
+## 🧰 Tecnologias Utilizadas
 
-| Camada | Tecnologia |
-| :--- | :--- |
-| Frontend | React + Vite + Tailwind CSS |
-| Backend | Node.js + Express (`server.ts`) |
-| IA / LLM | Google Gemini API |
-| Agente alternativo (CLI/API) | Python + FastAPI (`python_agent/`) |
-| Base de Conhecimento | RAG normativo próprio (Lei n.º 22/11, Lei n.º 23/11, APD, NIST CSF, CIS Controls) |
-| Deploy | Oracle Cloud Infrastructure (OCI) / Docker / PM2 + Nginx |
+**Frontend**
+
+![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite_6-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS_4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+**Backend**
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+
+**IA & Dados**
+
+![Google Gemini](https://img.shields.io/badge/Google_Gemini_API-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
+
+**Deploy & Infraestrutura**
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Oracle Cloud](https://img.shields.io/badge/Oracle_Cloud_Infrastructure-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+### Bibliotecas e Pacotes Principais
+
+| Camada | Tecnologia / Pacote | Função no Projeto |
+| :--- | :--- | :--- |
+| Frontend | `react` 19 + `react-dom` | Interface de utilizador |
+| Frontend | `vite` 6 + `@vitejs/plugin-react` | Build e servidor de desenvolvimento |
+| Frontend | `tailwindcss` 4 + `@tailwindcss/vite` | Estilização |
+| Frontend | `lucide-react` | Ícones |
+| Frontend | `motion` | Animações de interface |
+| Frontend | `react-markdown` + `remark-gfm` | Renderização das respostas do agente em Markdown |
+| Frontend | `jspdf` + `jspdf-autotable` | Exportação do diagnóstico em PDF |
+| Backend | `express` | Servidor HTTP / API |
+| Backend | `@google/genai` | SDK oficial do Google Gemini |
+| Backend | `dotenv` | Gestão de variáveis de ambiente |
+| Backend | `tsx` + `esbuild` | Execução e build do TypeScript |
+| Agente Python | `fastapi` + `uvicorn` | API alternativa do agente |
+| Agente Python | `google-genai` | SDK do Gemini em Python |
+| Agente Python | `pydantic` | Validação de dados |
+| Agente Python | `python-dotenv` + `rich` | Configuração e output formatado em CLI |
+| Base de Conhecimento | RAG normativo próprio | Lei n.º 22/11, Lei n.º 23/11, APD, NIST CSF, CIS Controls |
+| Deploy | Docker, PM2 + Nginx, OCI, Netlify | Empacotamento e hospedagem |
+
 
 ---
 
@@ -189,6 +232,8 @@ O projeto suporta múltiplas opções de deploy — detalhes completos em [`REQU
 - **Oracle Cloud Infrastructure (OCI)** — ver [`deployment/oci`](./deployment/oci);
 - **Plataformas de nuvem** (Render, Railway, Fly.io, Google Cloud Run).
 
+🔗 [Teste o agente](https://pangolins-cyber.netlify.app/)
+
 ---
 
 ## 📂 Estrutura do Projeto
@@ -243,15 +288,16 @@ O Ngúnji fundamenta as suas respostas em:
 - [ ] Deploy contínuo na Oracle Cloud Infrastructure (OCI)
 - [ ] Ampliação da base RAG normativa
 - [ ] Autenticação de utilizadores / gestão de perfis de empresa
-- [ ] Exportação de relatórios de diagnóstico em PDF
 
 ---
 
-## 👤 Autor
+## 👨‍💻 Autor
 
 **Israel Cassute (Zuba)**
-Estudante de Engenharia Informática e Comunicação — Universidade Óscar Ribas (Luanda, Angola)
-Cibersegurança, IA e formação técnica
+Engenheiro Informático e Comunicações
+**`DIO Campus Expert | Cybersecurity & AI Engineer | DevSecOps | Pentest | Systems Analysis | Infrastructure Automation | MLOps`**
+
+🔗 [LinkedIn](https://www.linkedin.com/in/israel-cassute/)
 
 ---
 
