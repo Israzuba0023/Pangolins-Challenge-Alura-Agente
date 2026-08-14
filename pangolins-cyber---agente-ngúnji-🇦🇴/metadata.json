@@ -1,0 +1,6 @@
+{
+  "name": "Pangolins Cyber - Agente Ngúnji 🇦🇴",
+  "description": "Agente de Ciber-higiene e Proteção de Dados (Lei 22/11 e APD) para PMEs Angolanas",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
